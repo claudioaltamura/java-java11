@@ -1,0 +1,21 @@
+todos
+=====
+
+https://www.journaldev.com/24601/java-11-features
+
+4 4. Java 11 Features
+
+    4.1 4.1) Running Java File with single command
+    4.2 4.2) Java String Methods
+    4.3 4.3) Local-Variable Syntax for Lambda Parameters
+    4.4 4.4) Nested Based Access Control
+    4.5 4.5) JEP 309: Dynamic Class-File Constants
+    4.6 4.6) JEP 318: Epsilon: A No-Op Garbage Collector
+    4.7 4.7) JEP 320: Remove the Java EE and CORBA Modules
+    4.8 4.8) JEP 328: Flight Recorder
+    4.9 4.9) JEP 321: HTTP Client
+    4.10 4.10) Reading/Writing Strings to and from the Files
+    4.11 4.11) JEP 329: ChaCha20 and Poly1305 Cryptographic Algorithms
+    4.12 4.12) JEP 315: Improve Aarch64 Intrinsics
+    4.13 4.13) JEP 333: ZGC: A Scalable Low-Latency Garbage Collector (Experimental)
+    4.14 4.14) JEP 335: Deprecate the Nashorn JavaScript Engine
