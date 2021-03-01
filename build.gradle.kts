@@ -4,6 +4,8 @@ plugins {
     java
     idea
     eclipse
+    id("com.diffplug.spotless") version "5.10.2"
+    id("com.github.ben-manes.versions") version "0.36.0"
 }
 
 repositories {
@@ -11,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.guava:guava:28.2-jre")
-
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
+
+    testImplementation("org.assertj:assertj-core:3.19.0")
 
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.0")
 }
@@ -35,3 +37,11 @@ val test by tasks.getting(Test::class) {
     }
 }
 
+spotless {
+    java {
+        googleJavaFormat()
+    }
+    kotlinGradle {
+        ktlint()
+    }
+}
