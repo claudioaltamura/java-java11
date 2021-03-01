@@ -38,5 +38,4 @@ public class HttpClientService {
 
     return client.sendAsync(httpPost, BodyHandlers.ofString());
   }
-
 }

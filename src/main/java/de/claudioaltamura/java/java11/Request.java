@@ -38,16 +38,11 @@ public class Request {
     if (obj == null) return false;
     if (getClass() != obj.getClass()) return false;
     Request other = (Request) obj;
-    return Objects.equals(endpoint, other.endpoint)
-        && Arrays.equals(payload, other.payload);
+    return Objects.equals(endpoint, other.endpoint) && Arrays.equals(payload, other.payload);
   }
 
   @Override
   public String toString() {
-    return "Message [endpoint="
-        + endpoint
-        + ", payload="
-        + Arrays.toString(payload)
-        + "]";
+    return "Message [endpoint=" + endpoint + ", payload=" + Arrays.toString(payload) + "]";
   }
 }
