@@ -31,7 +31,7 @@ public class HttpClientService {
     var httpPost =
         HttpRequest.newBuilder()
             .uri(URI.create(request.getEndpoint()))
-            .header("Content-Type", "application/octet-stream")
+            .header("Content-Type", "application/json")
             .header("accept", "application/json")
             .POST(BodyPublishers.ofByteArray(request.getPayload()))
             .build();
